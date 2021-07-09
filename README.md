@@ -1,2 +1,2 @@
 # Front-End1
-Repositorio de Gregorio Martinez para la Materia Front-End 1
+Repositorio de Pilar Lucas Bettini para la materia de Front End I
