@@ -1,0 +1,16 @@
+
+
+.spanNegrita { 
+    font-weight: bold;
+}
+header {background-color: gray;
+text-align: center;}
+h1, h3 {background-color: gray;
+color:#005677;
+word-spacing: 10px;
+text-transform: uppercase;
+}
+span{font-style: italic;}
+footer{background-color: #005677;
+color:white;
+text-align: center;}

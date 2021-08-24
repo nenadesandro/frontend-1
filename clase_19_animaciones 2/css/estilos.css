@@ -1,0 +1,74 @@
+/* Estilos generales para box */
+.box{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: coral;  
+    color: #fff;
+} 
+
+/* Cuando renderiza HTML */
+ .box-renderiza{
+     transform: rotate(45deg) translateX(30px);
+     transform-origin: 100% 100%;
+ }
+ .box-renderiza p{
+     transform: rotate(-45deg);
+ }
+/* Con hover */
+.box-hover{
+    transition: transform 2s, width 5s; /* all */
+}
+.box-hover:hover{
+ transform: scale(1.2);
+ width: 200px;
+}
+ 
+/* Con keyframes */
+.box-keyframe{
+    animation: traslado 4s linear, traslado2 4s linear  4s;
+ 
+}
+.box-keyframe p{
+    animation: rotacion 4s infinite linear  ;
+}
+
+.loader{
+    width: 60px;
+    height: 60px;
+    border: 8px solid gainsboro;
+    border-top-color: grey;
+    border-radius: 50%;
+    animation: loader 1.5s infinite linear;
+}
+
+@keyframes loader{
+    100%{
+        transform: rotate(1turn);
+    }
+}
+@keyframes traslado{
+    0%{transform: translate(0);}
+    100%{
+        transform: translateX(100px)  ;
+    } 
+}
+@keyframes traslado2{
+    0%{transform: translate(100px);}
+    50%{
+        transform: translateX(200px)  ;
+    } 
+    100%{
+        transform: translateX(0px) 
+    }
+}
+@keyframes rotacion{
+    0%{transform: rotate(0);}
+    50%{
+        transform:  rotate(-45deg);
+    }
+    100%{transform: rotate(0);}
+}

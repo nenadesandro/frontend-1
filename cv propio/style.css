@@ -1,0 +1,19 @@
+h1, h3{background-color: pink;
+    color:white ;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header{text-align: center;}
+span{font-weight: 300;}
+body{background-image: url("img/Terracotta\ Doodle\ Background\ Wallpaper\ _\ MuralsWallpaper.jpg");
+font-family: Arial, Helvetica, sans-serif;
+}
+footer {background-color: brown;
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+text-align: center;
+font-style: italic;
+flex:auto;
+}
+/*
